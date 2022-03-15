@@ -5,25 +5,32 @@
 public class ChapterOneNonDataTypes {
 public static void main(String[] args) { 
 
-// Goes to the same object over and over again - option 1 
+// *** Re-use the same object multiple times (memory efficient) - option 1 
+// *** Continues sequel of charachters 
+
+// Create a variable that will print a string value
 String str = "value"; 
 System.out.println("String is:  " + str);
 
-
-// Goes to a new object one time - option 2 
+//*** Everytime you call it, its going to create a new object  - option 2 
 String str1 = new String("test");
 System.out.println("Another string: "+str1);
 
 
-// Create variable Arrys that prints value according to the index
+// *** Arry can store a continues sequel of anything (charachters, floating numbers ect)
+// *** and can store alot of value of similar data types. Arry always start at 0 index. 
+
+// Create variable Arrys variable with interger value. 
 int arr[ ];
 arr = new int[2];
 arr[0] = 0;
 arr[1] = 1;
-//arr[2] = 3;
+// -- arr[2] = 3;
 
-//System.out.println(arr);
+// -- System.out.println(arr);
 System.out.println(arr[1]);
+
+
 
 }
   
