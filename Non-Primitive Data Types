@@ -1,0 +1,32 @@
+// Chapter 1
+// Non - Primitive Data Types
+// Author: Naomi Diaz 
+
+public class ChapterOneNonDataTypes {
+public static void main(String[] args) { 
+
+// Goes to the same object over and over again - option 1 
+String str = "value"; 
+System.out.println("String is:  " + str);
+
+
+// Goes to a new object one time - option 2 
+String str1 = new String("test");
+System.out.println("Another string: "+str1);
+
+
+// Create variable Arrys that prints value according to the index
+int arr[ ];
+arr = new int[2];
+arr[0] = 0;
+arr[1] = 1;
+//arr[2] = 3;
+
+//System.out.println(arr);
+System.out.println(arr[1]);
+
+}
+  
+  
+  
+}
