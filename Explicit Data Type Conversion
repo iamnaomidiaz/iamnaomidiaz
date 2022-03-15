@@ -1,0 +1,28 @@
+//Chapter 1
+//ExplicitDataTypeConversion: Coverting a larger type variable into a 
+//                            smaller type variable.
+//Author: Naomi Diaz  
+
+public class ChapterOneExplicitDataTypeConvertion {
+public static void main(String[] args) { 
+    
+//Double is the largest value and can store a decimal value 
+double a = 50.50;
+System.out.println(" Double representation: " + a);
+  
+//Store value "a" as float variable  
+// Method: (varible type) = type casting
+float f = (float) a;
+System.out.println(" Float representation: " + f);
+
+//***Long does not regonize decimal value 
+// Store value "a" as a Long 
+long b = (long) a;
+System.out.println(" Long representation: " + b);
+  
+// Store the larger value double into an int   
+int c = (int) b; 
+System.out.println(" Int representation: " + c); 
+  
+}
+}
