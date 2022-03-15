@@ -1,0 +1,24 @@
+// Chapter 1 
+// Implicit Data Type Conversion: Coverting a smaller type variable into a 
+//                                 larger type variable.
+// Author: Naomi Diaz 
+
+
+public class ChapterOneImplicitDataTypeConversion {
+public static void main(String[] args) { 
+ 
+// Assign variable + Print string and value   
+int a  = 100; 
+System.out.println("Int representation: " + a);
+
+//Store int variable value a to variable type long
+long b = a;
+System.out.println("Long representation: " + b);
+ 
+//Store long variable value b to variable type float 
+float c = b;
+System.out.println("Float representation: " + c);
+ 
+ 
+ }
+}
