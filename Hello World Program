@@ -1,0 +1,23 @@
+// Chapter 1
+// Hello World Program
+// Author: Naomi Diaz
+
+public class HelloWorld {
+public static void main(String[] args) { 
+    
+// Print string to the counsel using the println method   
+System.out.println("Hello World"); 
+
+// Difference between System.out.println & System.out.print 
+System.out.print("Hello World! "); 
+System.out.print("Helllo World! "); 
+
+System.out.println("Hello World! ");
+System.out.println("Hello World! "); 
+
+
+  }
+  
+  
+  
+}
