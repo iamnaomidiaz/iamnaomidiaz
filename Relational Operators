@@ -1,0 +1,45 @@
+// Chapter 1
+// Relational / Comparison Operators in Java
+// Author: Naomi Diaz
+
+public class RelationalOperators {
+public static void main(String[] args) { 
+  
+int value1 = 1;
+int value2 = 2;
+
+// equal to 
+if(value1 == value2) {
+System.out.println("value 1 equal to value2");
+}
+
+// not equal to 
+if(value1 != value2) {
+System.out.println("value 1 not equal to value2"); 
+}  
+
+// greater than 
+if(value1 > value2) {
+System.out.println("value 1 is greater than value2");
+}
+
+// less than 
+if(value1 < value2) {
+System.out.println("value 1 is less than value2"); 
+} 
+
+// greater than or equal to 
+if(value1 >= value2) {
+System.out.println("value 1 is greater than or equal to  value2"); 
+}
+
+// less than or equal to 
+if(value1 <= value2) {
+System.out.println("value 1 is less than or equal to value2"); 
+} 
+
+
+
+  }
+  
+}
