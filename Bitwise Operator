@@ -1,0 +1,23 @@
+// Chapter 1
+// Bitwise Operator in Java
+// Author: Naomi Diaz
+
+public class BitwiseOperator {
+public static void main(String[] args) { 
+  
+// initial values
+int a = 5;
+int b = 7; 
+
+
+//Bitwise translation AND: 0101 & 0111 = 0101 = 5
+System.out.println("a&b = " + (a & b));
+
+
+//Bitwise translation OR: 0101 | 0111 = 0111 = 7
+System.out.println( "a&b = " + (a | b)); 
+
+
+  }
+ 
+}
