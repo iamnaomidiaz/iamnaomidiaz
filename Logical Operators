@@ -1,0 +1,23 @@
+// Chapter 1
+// Logical Operators in Java
+// Author: Naomi Diaz
+
+public class LogicalOperator {
+public static void main(String[] args) { 
+  
+int value1 = 1;
+int value2 = 2;
+  
+  
+// value1 is true AND value2 is true
+if((value1 == 1) && (value2 == 2))
+System.out.println(" value 1 is 1 AND value 2 is 2 ");
+    
+// value1 is true OR value2 is true 
+if((value1 == 1) || (value2 == 2))
+System.out.println(" value 1 is 1 OR value 2 is 2 "); 
+  
+   }
+  
+  
+}
