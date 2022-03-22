@@ -1,0 +1,60 @@
+// Class: 22 March 2022
+// Author: Naomi Diaz
+// Description: Writing Classes and using Constructors
+
+import java.util.Calendar;
+import java.util.GregorianCalendar; 
+
+public class Person {
+  
+private String firstName; 
+private String lastName; 
+private int birthYear; 
+
+public Person () 
+{
+}
+
+public Person( String firstName, String lastName, int birthYear) {
+super(); 
+this.firstName = firstName;     
+this.lastName = lastName; 
+this.birthYear = birthYear;
+}
+
+public String getFirstName() {
+return firstName; 
+}
+public void setFirstName(String firstName) { 
+this.firstName = firstName; 
+} 
+
+public String getLastName() {
+return lastName; 
+}
+public void setLastName(String lastName) { 
+this.lastName =  lastName; 
+} 
+ 
+public int getbirthYear() {
+return birthYear; 
+}
+public void setBirthYear(int birthYear ) { 
+this.birthYear =  birthYear;
+} 
+public int getAge(){
+GregorianCalendar date = new GregorianCalendar(); 
+return date.get(Calendar.YEAR) - birthYear;  
+} 
+
+public String getFullName() 
+{return firstName + " " + lastName; }
+  
+public String toString() 
+{ StringBuffer buff = new StringBuffer(100); 
+buff.append("First name : " +firstName);
+buff.append("Last name : " +lastName);
+buff.append("Year : " +birthYear);
+return buff.toString();
+}
+}
