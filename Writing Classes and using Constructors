@@ -1,0 +1,25 @@
+// Class: 22 March 2022
+// Author: Naomi Diaz
+// Description: Writing Classes and using Constructors
+
+public class TestPerson {
+public static void main(String[] args) { 
+    
+    Person person1 = new Person();
+    person1.setFirstName("John"); 
+    person1.setLastName("Smith" ); 
+    person1.setBirthYear(2000); 
+    
+    System.out.println("\nTest Print -1\n" + person1.toString() );
+    System.out.println("Age = " + person1.getAge() + "\n");
+    
+    
+    Person person2 = new Person(" Joe ", "Adams", 20 );
+    
+    System.out.println("\nTest Print -2\n" + person2.toString() );
+    System.out.println("Age = " + person2.getAge() + "\n");
+    
+  }
+  
+  
+}
