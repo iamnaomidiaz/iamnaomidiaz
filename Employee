@@ -1,0 +1,26 @@
+// Chapter 5: Assingment Q2
+// Author: Naomi Diaz
+// Description: This program to display employee id, name and dept. 
+ 
+private int employeeID;
+private String employeeName;
+private int employeeDepth;
+  
+private int counter = 0;
+Employee[] array = new Employee [10];
+  
+public void getEmployee(int employeeID, String employeeName, int employeeDepth) {  
+                          
+this.employeeID = employeeID;
+this.employeeName = employeeName
+this.employeeDepth = employeeDepth   
+                          
+Scanner console = new Scanner(System.in); 
+this.employeeID = console.nextInt();
+this.employeeName = console.nextInt();
+this.employeeDepth = console.nextInt();                        
+                          
+array[counter] = new Employee(); 
+array[counter].employeeID = this.employeeID;
+array[counter].employeeName = this.employeeName                          
+array[counter].employeeDepth = this.employeeDepth 
