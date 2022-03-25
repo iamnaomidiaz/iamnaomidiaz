@@ -1,0 +1,31 @@
+// Chapter 2: Control Flow Statements
+// Author: Naomi Diaz
+// Description: If and else if statements 
+
+public class ControlFlowStatements {
+public static void main(String[] args) { 
+
+int testscore = 56;
+char grade;
+
+//** include if statement 
+if (testscore >=90) {
+grade = 'A';
+
+//**further include else if statement in case if statement is not true
+} else if (testscore >=80) {
+grade = 'B';
+} else if (testscore >=70) {
+grade = 'C';
+} else if (testscore >=60) {
+grade = 'D';
+} else {
+grade = 'F'; 
+}
+
+System.out.println(" Grade = " + grade);
+
+}
+}
+  
+  
