@@ -1,0 +1,17 @@
+// Chapter 2: Do While Loop
+// Author: Naomi Diaz
+// Description: Do While Loop used to print a statement before condition evaluation 
+
+public class DoWhileLoopsDemo {
+public static void main(String[] args) { 
+  
+  int count = 8; 
+  
+  do {
+    System.out.println(" Count is: " + count); 
+    count++;
+  } while (count < 10); 
+  }
+  
+}
+  
