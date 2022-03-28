@@ -1,0 +1,19 @@
+// Chapter 2: While Loop Demo
+// Author: Naomi Diaz
+// Description: While loop evaluate the condition then prints statements while incremeating the value
+
+public class WhileLoopsDemo {
+public static void main(String[] args) { 
+  
+int count = 1;
+  
+while (count < 10) { 
+System.out.println(" Count is: " + count);
+  
+count++; 
+    
+  }
+    
+}
+
+}
