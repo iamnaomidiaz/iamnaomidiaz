@@ -1,0 +1,17 @@
+// Chapter 2: Multi Dimensional Array
+// Author: Naomi Diaz
+// Description: how to incorporate and read Muliti Dimentional Array's
+
+public class MultiDimensionalArray {
+public static void main(String[] args) { 
+    
+//*** Multi dimentional array's have an Y, X, Z 
+
+  int [] [] []  arr = { { { 1,2,10}, {3,4,11} }, { { 5,6,12}, { 7, 8, 13} } };
+  
+  System.out.println(arr[0][1][2]); 
+ 
+}
+ 
+  
+}
